@@ -1,0 +1,38 @@
+Computational Modelling Assignment
+
+Dublin Bill Management Company is a start-up bill management company, i.e., they offer tracking for electricing, gas, and utility bills.
+They have approached you to develop a command line interface python system that will record all of their customers bills, together with a menu to generate queries/reports that can be run against this data.
+The following is some sample customer data that you should make use of (the full list is available as the file results.csv on Brightspace):
+  Electric Ireland, John Smyth, 2017, 05, 12, 11.58, credit
+  Energia, Missy May, 2016, 12, 22, 122.52, debit
+  Vodafone, John Smyth, 2016, 11, 17, 20.00, debit
+  Energia, Susie Sue, 2016, 11, 03, 25.00, debit
+  Vodafone, Susie Sue, 2016, 11, 17, 5.00, credit
+
+Data Description
+The file is a comma separated value (csv) file – each field is separated by a comma. The first field is the utility company, the second is the customer name, the third is the year, fourth is the month, fifth is the day, i.e. date  (in YYYY, MM, DD format), the sixth field is the amount of the bill, while the last field is a flag indicating whether this is a credit or debit against the bill.
+Write a python console application to capture customers and their utility bills.
+You will need to be able to store utility bill details, create them and produce a number of reports (see below).
+For this assignment, a new utility bill should store the supplier company, the name of the customer, the date on which the bill was raised, the amount, and an indicator to specify whether the bill is a debit or a credit.
+
+
+Requirements and Reports/Queries
+⦁	Provide a way for a user to enter utility bill details: utility company, name of the customer, date of the bill, the amount, and a flag indicating whether the bill is debit or credit.
+⦁	Start your code with the initial bills.csv above.  However, you need to provide a mechanism for writing and reading these utility bills to a text file.
+This option should be provided via a menu choice.
+⦁	Provide a report that lists years, total credited and total debited, e.g., the output will look like the following:
+Year		Total Credited	Total Debited
+2016		€123.45		€678.90
+2017		€543.21		€987.60
+
+⦁	Provide a report that shows the most popular utility company.  The most popular utility company is the one with the most bills against that provider.
+⦁	Provide a report that shows the bills in date order.
+⦁	Provide another report that displays the highest amount for a bill that is a credit, and one for a debit.
+⦁	Provide a report to indicate how successful the company is.  This should display the total number of bills.
+⦁	Provide a report to calculate the average spent per period of time (month/year) that can be entered by the user.
+⦁	Provide a report to calculate the average time between bills.
+
+Notes
+⦁	Please ensure that you build your code base using Test Driven Development, TDD and the python unittest module should be used to complete your tests.  So, remember:  Red🡪Green🡪Refactor.
+⦁	For writing and reading bills from and to a text file, it is entirely up to you how you do this.
+⦁	Ensure you write your code in a robust coding manner.
