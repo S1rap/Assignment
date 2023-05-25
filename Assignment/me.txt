@@ -1,5 +1,5 @@
-Potinella errors:
-1. Om det skulle råka komma mellan-slag i csv filen kommer progammet inte fungera framförallt på 'debit' / 'credit'
+Potentiella errors:
+1. Om det skulle råka komma ett mellan-slag i csv filen kommer progammet inte att fungera framförallt på 'debit' / 'credit'
 2. 'Card' är case-sensetive ('debit' & 'credit')
 
 
